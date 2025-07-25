@@ -1,24 +1,49 @@
-🧑‍⚕️ Multiple Disease Prediction System
-This is a Multiple Disease Prediction System built using Python, Machine Learning, and Streamlit. The web application can predict the likelihood of a person having several diseases based on user input. It uses pre-trained models for each disease and provides results in real-time via an interactive interface.
+# 🧑‍⚕️ Multiple Disease Prediction System
 
-🔍 Diseases Supported
-The system currently supports prediction for the following diseases:
+A powerful and user-friendly **Streamlit web application** that predicts the presence of multiple diseases using **Machine Learning** models trained on publicly available datasets.
 
-🩸 Diabetes
+This system assists in predicting 9 different diseases based on user input, offering real-time, interactive health insights.
 
-❤️ Heart Disease
+---
 
-🧠 Parkinson's Disease
+## 🩺 Supported Disease Predictions
 
-🧬 Breast Cancer
+🔹 **Diabetes**  
+🔹 **Heart Disease**  
+🔹 **Parkinson's Disease**  
+🔹 **Breast Cancer**  
+🔹 **Kidney Disease (Chronic)**  
+🔹 **COVID-19**  
+🔹 **Liver Disease**  
+🔹 **Stroke**  
+🔹 **Mental Health Condition**
 
-🧽 Chronic Kidney Disease
+---
 
-🦠 COVID-19
+## 🚀 Features
 
-🧪 Liver Disease
+✅ Predicts multiple diseases from a single platform  
+✅ Interactive and clean user interface with **Streamlit**  
+✅ Real-time result based on user input  
+✅ Lightweight, fast, and easy to run locally  
+✅ Modular codebase — easily extendable with more diseases
 
-⚡ Stroke
+---
 
-🧘 Mental Health Condition
+## 🛠️ Built With
 
+- Python  
+- Streamlit  
+- Scikit-learn  
+- Pickle (for loading saved models)  
+- `streamlit-option-menu` (for sidebar navigation)
+
+---
+
+## 📂 Folder Structure
+
+Multiple-Disease-Prediction/
+├── app.py # Streamlit app source code
+├── saved_models/ # Folder with all pre-trained ML models (.sav files)
+├── requirements.txt # List of required Python packages
+└── README.md # Project documentation
