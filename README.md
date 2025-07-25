@@ -40,10 +40,13 @@ This system assists in predicting 9 different diseases based on user input, offe
 
 ---
 
-## 📂 Folder Structure
+### 📂 Folder Structure
 
+```bash
 Multiple-Disease-Prediction/
-├── app.py # Streamlit app source code
-├── saved_models/ # Folder with all pre-trained ML models (.sav files)
-├── requirements.txt # List of required Python packages
-└── README.md # Project documentation
+├── app.py                  # Streamlit app source code
+├── saved_models/           # Folder with all pre-trained ML models (.sav files)
+├── requirements.txt        # List of required Python packages
+└── README.md               # Project documentation
+```
+
