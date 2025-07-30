@@ -50,3 +50,5 @@ Multiple-Disease-Prediction/
 └── README.md               # Project documentation
 ```
 
+
+<!-- streamlit run app.py  -->
